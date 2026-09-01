@@ -1,0 +1,21 @@
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+build/
+*.spec.bak
+
+# Local Google OAuth settings and tokens must never be committed.
+config.json
+google-oauth-token.json
+client_secret*.json
+credentials*.json
+token*.json
+
+# Local editor and operating-system files.
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
